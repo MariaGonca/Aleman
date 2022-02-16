@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:orientation="vertical"
+    android:background="@drawable/bandera"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Registro"
+        android:textSize="50dp"
+        android:textStyle="bold"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="50dp"
+        android:textColor="@color/accent"
+        android:fontFamily="sans-serif-smallcaps"
+        />
+
+    <EditText
+        android:id="@+id/txt_nombre"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginBottom="30dp"
+        android:backgroundTint="@color/white"
+        android:hint="@string/nombre"
+        android:paddingLeft="10dp"
+        android:textColorHint="@color/white"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/txt_contra"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="@string/contra"
+        android:textSize="20dp"
+        android:textColorHint="@color/white"
+        android:layout_marginBottom="30dp"
+        android:paddingLeft="10dp"
+        android:backgroundTint="@color/white"
+        android:inputType="textPassword"
+        />
+
+
+    <EditText
+        android:id="@+id/txt_contra2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="@string/contra2"
+        android:textSize="20dp"
+        android:textColorHint="@color/white"
+        android:layout_marginBottom="30dp"
+        android:paddingLeft="10dp"
+        android:backgroundTint="@color/white"
+        android:inputType="textPassword"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/registro"
+        android:text="@string/Registro"
+        android:textSize="20dp"
+        android:backgroundTint="@color/black"
+        android:shadowRadius="@integer/material_motion_duration_long_1"
+        android:layout_marginBottom="30dp"
+        android:textColor="@color/accent"
+
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/entrar"
+        android:text="@string/Registro2"
+        android:textSize="15dp"
+        android:backgroundTint="#00DAC0C0"
+        android:textColor="@color/accent"
+        android:layout_marginBottom="30dp"
+        />
+
+</LinearLayout>

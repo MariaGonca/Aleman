@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Suspenso"
+    android:background="@drawable/bandera2"
+    >
+
+    <TextView
+        android:id="@+id/veredicto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/suspenso"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="5dp"
+        android:textSize="60dp"
+        android:textAlignment="center"
+        android:fontFamily="serif"
+        />
+
+    <TextView
+        android:id="@+id/nota"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textAlignment="center"
+        android:textSize="35dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="0dp"
+        android:textColor="@color/white"
+        android:fontFamily="serif-monospace"/>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="0dp"
+        app:srcCompat="@drawable/suspenso" />
+
+    <ImageButton
+        android:id="@+id/volverMenu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/flechavolv"
+        android:background="@color/material_on_surface_stroke"
+        android:layout_marginTop="10dp"
+        android:onClick="saliraprobado"/>
+
+
+</LinearLayout>

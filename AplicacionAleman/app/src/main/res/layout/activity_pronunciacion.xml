@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Pronunciacion"
+    android:background="@drawable/bandera2">
+
+
+    <TextView
+        android:id="@+id/TituloPronunciacion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/pronunciación"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="20dp"
+        android:textSize="50dp"
+        android:textAlignment="center"
+        android:fontFamily="serif"
+        />
+
+    <TableLayout
+        android:layout_width="327dp"
+        android:layout_height="319dp"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/auf_wiedersehen_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="serif-monospace"
+                android:text="Auf wiedersehen"
+                android:textColor="@color/black"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <ImageButton
+                android:id="@+id/sonido1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@color/material_on_surface_stroke"
+                app:srcCompat="@drawable/oido"></ImageButton>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="serif-monospace"
+                android:text="Vielen Dank"
+                android:textColor="@color/black"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <ImageButton
+                android:id="@+id/sonido2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@color/material_on_surface_stroke"
+                app:srcCompat="@drawable/oido"
+
+                />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="serif-monospace"
+                android:text="Entschudilgen Sie"
+                android:textColor="@color/black"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <ImageButton
+                android:id="@+id/sonido3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@color/material_on_surface_stroke"
+                app:srcCompat="@drawable/oido"
+
+                />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="serif-monospace"
+                android:text="Ich Mag Das"
+                android:textColor="@color/black"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <ImageButton
+                android:id="@+id/sonido4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@color/material_on_surface_stroke"
+                app:srcCompat="@drawable/oido"
+                />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="15dp">
+
+            <ImageButton
+                android:id="@+id/botongrabar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@android:drawable/ic_btn_speak_now"
+                android:background="@color/black"
+                android:onClick="Recorder"
+                />
+
+            <ImageButton
+                android:id="@+id/imageButton2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@android:drawable/ic_media_play"
+                android:background="@color/black"
+                android:onClick="reproducir"
+                />
+
+        </TableRow>
+    </TableLayout>
+
+
+</FrameLayout>

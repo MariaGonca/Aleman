@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/mcgca/AndroidStudioProjects/AplicacionAleman/app/src/main/res/drawable/button_rounded.xml" value="0.23703703703703705" />
+        <entry key="..\:/Users/mcgca/AndroidStudioProjects/AplicacionAleman/app/src/main/res/layout/activity_animales.xml" value="0.11296296296296296" />
+        <entry key="..\:/Users/mcgca/AndroidStudioProjects/AplicacionAleman/app/src/main/res/layout/activity_aprobado.xml" value="0.29791666666666666" />
+        <entry key="..\:/Users/mcgca/AndroidStudioProjects/AplicacionAleman/app/src/main/res/layout/activity_login.xml" value="0.33" />
+        <entry key="..\:/Users/mcgca/AndroidStudioProjects/AplicacionAleman/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Users/mcgca/AndroidStudioProjects/AplicacionAleman/app/src/main/res/layout/activity_menu.xml" value="0.33" />
+        <entry key="..\:/Users/mcgca/AndroidStudioProjects/AplicacionAleman/app/src/main/res/layout/activity_perfecto.xml" value="0.29791666666666666" />
+        <entry key="..\:/Users/mcgca/AndroidStudioProjects/AplicacionAleman/app/src/main/res/layout/activity_suspenso.xml" value="0.29791666666666666" />
+        <entry key="..\:/Users/mcgca/AndroidStudioProjects/AplicacionAleman/app/src/main/res/layout/activity_suspenso2.xml" value="0.29791666666666666" />
+        <entry key="..\:/Users/mcgca/AndroidStudioProjects/AplicacionAleman/app/src/main/res/layout/activity_test.xml" value="0.29791666666666666" />
+        <entry key="..\:/Users/mcgca/AndroidStudioProjects/AplicacionAleman/app/src/main/res/layout/items.xml" value="0.33489583333333334" />
+        <entry key="..\:/Users/mcgca/AndroidStudioProjects/AplicacionAleman/app/src/main/res/layout/spinner_item_dam.xml" value="0.2942708333333333" />
+        <entry key="..\:/Users/mcgca/AndroidStudioProjects/AplicacionAleman/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.3067708333333333" />
+        <entry key="..\:/Users/mcgca/AndroidStudioProjects/AplicacionAleman/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.15989583333333332" />
+        <entry key="..\:/Users/mcgca/Desktop/FinalAndroid/AplicacionAleman/app/src/main/res/layout/activity_animales.xml" value="0.35260416666666666" />
+        <entry key="..\:/Users/mcgca/Desktop/FinalAndroid/AplicacionAleman/app/src/main/res/layout/activity_aprobado.xml" value="0.35260416666666666" />
+        <entry key="..\:/Users/mcgca/Desktop/FinalAndroid/AplicacionAleman/app/src/main/res/layout/activity_login.xml" value="0.35260416666666666" />
+        <entry key="..\:/Users/mcgca/Desktop/FinalAndroid/AplicacionAleman/app/src/main/res/layout/activity_main.xml" value="0.35260416666666666" />
+        <entry key="..\:/Users/mcgca/Desktop/FinalAndroid/AplicacionAleman/app/src/main/res/layout/activity_menu.xml" value="0.35260416666666666" />
+        <entry key="..\:/Users/mcgca/Desktop/FinalAndroid/AplicacionAleman/app/src/main/res/layout/activity_perfecto.xml" value="0.35260416666666666" />
+        <entry key="..\:/Users/mcgca/Desktop/FinalAndroid/AplicacionAleman/app/src/main/res/layout/activity_pronunciacion.xml" value="0.2871287128712871" />
+        <entry key="..\:/Users/mcgca/Desktop/FinalAndroid/AplicacionAleman/app/src/main/res/layout/activity_suspenso.xml" value="0.35260416666666666" />
+        <entry key="..\:/Users/mcgca/Desktop/FinalAndroid/AplicacionAleman/app/src/main/res/layout/activity_test.xml" value="0.35260416666666666" />
+        <entry key="..\:/Users/mcgca/Desktop/www/AplicacionAleman/app/src/main/res/layout/activity_main.xml" value="0.17249240121580547" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

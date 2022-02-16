@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">AplicacionAleman</string>
+    <string name="InicioSesion">Inicia sesión</string>
+    <string name="Registro">Regístrate</string>
+    <string name="Registro2">Acceder con mi cuenta</string>
+    <string name="nombre">Nombre</string>
+    <string name="contra">Contraseña</string>
+    <string name="contra2">Confirma la Contraseña</string>
+    <string name="test">Test de nivel de alemán</string>
+    <string name="animales">Traductor</string>
+    <string name="salir">Salir</string>
+    <string name="volver">Volver</string>
+    <string name="Siguiente">Siguiente</string>
+    <string name="perfecto">PERFEKT</string>
+    <string name="aprobado">GUT</string>
+    <string name="suspenso">NEIN NEIN NEIN</string>
+
+    <string name="pronunciación">Pronunciación</string>
+
+</resources>
